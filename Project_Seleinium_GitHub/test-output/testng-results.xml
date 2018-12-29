@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33400" started-at="2018-12-25T18:21:08Z" finished-at="2018-12-25T18:21:41Z">
+  <suite name="Default suite" duration-ms="95959" started-at="2018-12-26T14:43:03Z" finished-at="2018-12-26T14:44:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33400" started-at="2018-12-25T18:21:08Z" finished-at="2018-12-25T18:21:41Z">
+    <test name="Default test" duration-ms="95959" started-at="2018-12-26T14:43:03Z" finished-at="2018-12-26T14:44:38Z">
       <class name="casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@9629756]" name="launchBrowser" is-config="true" duration-ms="17015" started-at="2018-12-25T18:21:08Z" finished-at="2018-12-25T18:21:25Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@4520ebad]" name="launchBrowser" is-config="true" duration-ms="29607" started-at="2018-12-26T14:43:03Z" finished-at="2018-12-26T14:43:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testAlreadyRegisteredEdurekaUser()[pri:0, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@9629756]" name="testAlreadyRegisteredEdurekaUser" duration-ms="14431" started-at="2018-12-25T18:21:25Z" finished-at="2018-12-25T18:21:39Z">
+        <test-method status="PASS" signature="testAlreadyRegisteredEdurekaUser()[pri:0, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@4520ebad]" name="testAlreadyRegisteredEdurekaUser" duration-ms="15133" started-at="2018-12-26T14:43:32Z" finished-at="2018-12-26T14:43:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAlreadyRegisteredEdurekaUser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@9629756]" name="closeBrowser" is-config="true" duration-ms="1924" started-at="2018-12-25T18:21:39Z" finished-at="2018-12-25T18:21:41Z">
+        <test-method status="PASS" signature="logInUser()[pri:1, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@4520ebad]" name="logInUser" duration-ms="13856" started-at="2018-12-26T14:43:47Z" finished-at="2018-12-26T14:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUser -->
+        <test-method status="PASS" signature="searchAllCourses()[pri:2, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@4520ebad]" name="searchAllCourses" duration-ms="18293" started-at="2018-12-26T14:44:01Z" finished-at="2018-12-26T14:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAllCourses -->
+        <test-method status="PASS" signature="logOut()[pri:3, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@4520ebad]" name="logOut" duration-ms="17039" started-at="2018-12-26T14:44:19Z" finished-at="2018-12-26T14:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser@4520ebad]" name="closeBrowser" is-config="true" duration-ms="1990" started-at="2018-12-26T14:44:36Z" finished-at="2018-12-26T14:44:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

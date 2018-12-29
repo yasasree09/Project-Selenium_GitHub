@@ -5,7 +5,6 @@
     <classes>
       <class name="casestudy6.CaseStudyTestAlreadyRegisteredEdurekaUser">
         <methods>
-          <include name="closeBrowser"/>
           <include name="launchBrowser"/>
           <include name="testAlreadyRegisteredEdurekaUser"/>
         </methods>
